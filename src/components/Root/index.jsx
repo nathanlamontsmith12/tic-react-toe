@@ -4,7 +4,11 @@ import BoardContainer from '../BoardContainer';
 
 const Root = () => (
   <div className="Root">
-    <h1>Tic-React-Toe</h1>
+    <h1 className="Root__h1">
+      tic
+      <p className="Root__react">REACT</p>
+      toe
+    </h1>
     <BoardContainer />
   </div>
 );

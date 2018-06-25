@@ -8,7 +8,7 @@ const text = {
 
 const Board = ({ cells, handleClick, isXsTurn }) => (
   <Fragment>
-    <h3>{isXsTurn ? text.x : text.o}</h3>
+    <p className="Board__indicator">{isXsTurn ? text.x : text.o}</p>
     <div className="Board">
       {cells.map((cell, index) => (
         <div

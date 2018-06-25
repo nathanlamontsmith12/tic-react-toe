@@ -1,9 +1,19 @@
 .Board {
   display: grid;
+  font-family: 'Permanent Marker';
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
-  width: 600px;
-  height: 600px;
+  width: 500px;
+  height: 500px;
+  font-size: 5rem;
+}
+
+.Board__indicator {
+  background-color: var(--primary-light);
+  position: fixed;
+  right: 1rem;
+  top: 1rem;
+  padding: 2rem;
 }
 
 .Board__cell {
@@ -15,14 +25,14 @@
 }
 
 .Board__cell:hover {
-  background-color: lightgrey;
+  background-color: var(--primary-dark);
 }
 
 .Board__cell:nth-of-type(n+4) {
-  border-top: solid 2px black;
+  border-top: solid 10px var(--yellow);
 }
 
 .Board__cell:nth-of-type(3n - 1),
 .Board__cell:nth-of-type(3n) {
-  border-left: solid 2px black;
+  border-left: solid 10px var(--yellow);
 }
