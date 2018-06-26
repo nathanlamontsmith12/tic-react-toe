@@ -8,8 +8,8 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  font-family: 'Helvetica';
-  font-weight: 200;
+  font-family: 'Paytone One';
+  letter-spacing: .05rem;
 }
 
 .Root__h1 {

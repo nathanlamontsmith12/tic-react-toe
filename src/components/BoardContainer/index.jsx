@@ -28,7 +28,7 @@ export class BoardContainer extends Component {
   }
 
   displayEndgameMessage({ result }) {
-    alert(`${result} has won! Click Ok to play again.`);
+    alert(`${result} won! Click OK to play again.`);
   }
 
   isGameOver() {
@@ -80,8 +80,8 @@ export class BoardContainer extends Component {
   diagonalRows() {
     const { cells } = this.state;
     return [
-      [0, 4, 8].map(diagonalIndex => cells[diagonalIndex]),
-      [2, 4, 6].map(diagonalIndex => cells[diagonalIndex]),
+      [0, 4, 8].map(index => cells[index]),
+      [2, 4, 6].map(index => cells[index]),
     ];
   }
 

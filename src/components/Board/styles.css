@@ -1,38 +1,17 @@
 .Board {
   display: grid;
   font-family: 'Permanent Marker';
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
-  width: 500px;
-  height: 500px;
   font-size: 5rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  height: 500px;
+  width: 500px;
 }
 
 .Board__indicator {
   background-color: var(--primary-light);
+  padding: 2rem;
   position: fixed;
   right: 1rem;
   top: 1rem;
-  padding: 2rem;
-}
-
-.Board__cell {
-  align-items: center;
-  cursor: pointer;
-  display: inline-flex;
-  justify-content: center;
-  user-select: none;
-}
-
-.Board__cell:hover {
-  background-color: var(--primary-dark);
-}
-
-.Board__cell:nth-of-type(n+4) {
-  border-top: solid 10px var(--yellow);
-}
-
-.Board__cell:nth-of-type(3n - 1),
-.Board__cell:nth-of-type(3n) {
-  border-left: solid 10px var(--yellow);
 }
