@@ -1,4 +1,4 @@
-.Board {
+.Board__cells {
   display: grid;
   font-family: 'Permanent Marker';
   font-size: 5rem;

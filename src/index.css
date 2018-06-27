@@ -4,7 +4,6 @@ body {
   font-size: 32px;
   --primary: rgb(17, 21, 46);
   --primary-light: rgb(29, 33, 61);
-  --primary-dark: rgb(6, 9, 32);
   --yellow: #ffe553;
   --red: rgb(224, 39, 39);
 }

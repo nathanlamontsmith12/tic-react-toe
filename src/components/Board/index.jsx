@@ -10,9 +10,14 @@ export const text = {
 export const Board = ({ cells, handleClick, isXsTurn }) => (
   <div className="Board">
     <p className="Board__indicator">{isXsTurn ? text.x : text.o}</p>
-    <div className="Board">
+    <div className="Board__cells">
       {cells.map((cell, index) => (
-        <Cell key={index} cell={cell} index={index} handleClick={handleClick} />
+        <Cell
+          handleClick={handleClick}
+          index={index}
+          key={index}
+          value={cell}
+        />
       ))}
     </div>
   </div>
