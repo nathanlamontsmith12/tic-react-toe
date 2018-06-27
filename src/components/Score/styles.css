@@ -18,6 +18,7 @@
   background-color: transparent;
   border: none;
   color: var(--red);
+  cursor: pointer;
   font-family: "Permanent Marker";
   font-size: 48px;
   text-shadow: 3px 3px var(--yellow);
