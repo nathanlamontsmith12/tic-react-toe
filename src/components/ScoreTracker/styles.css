@@ -1,0 +1,13 @@
+.ScoreTracker__root {
+  background-color: var(--primary-light);
+  left: 1rem;
+  padding: 2rem;
+  position: fixed;
+  top: 1rem;
+}
+
+.ScoreTracker__h3 {
+  margin: 0;
+  border-bottom: solid 4px var(--yellow);
+  text-shadow: 4px 4px var(--primary);
+}
