@@ -4,9 +4,9 @@
   color: var(--yellow);
   display: flex;
   flex-direction: column;
-  font-family: 'Paytone One', 'Segoe UI', 'Helvetica', sans-serif;
+  font-family: "Paytone One", "Segoe UI", "Helvetica", sans-serif;
   justify-content: center;
-  letter-spacing: .05rem;
+  letter-spacing: 0.05rem;
   min-height: 100vh;
   text-align: center;
   width: 100%;
@@ -16,12 +16,12 @@
   align-items: center;
   display: flex;
   margin-bottom: 3rem;
-  text-shadow: 4px 4px var(--primary)
+  text-shadow: 4px 4px var(--primary);
 }
 
 .Root__react {
   color: var(--red);
-  font-family: 'Permanent Marker';
+  font-family: "Permanent Marker";
   transform: rotateZ(-20deg) scale(1.4);
   text-shadow: 3px 3px var(--yellow);
   margin: 0 2rem;

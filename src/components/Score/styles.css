@@ -1,0 +1,37 @@
+.Score__root {
+  align-items: center;
+  display: flex;
+}
+
+.Score__h4 {
+  margin: 0 1rem 0 0;
+  text-shadow: 4px 4px var(--primary);
+  width: 150px;
+}
+
+.Score__score {
+  text-shadow: 4px 4px var(--primary);
+  width: 4rem;
+}
+
+.Score__button {
+  background-color: transparent;
+  border: none;
+  color: var(--red);
+  font-family: "Permanent Marker";
+  font-size: 48px;
+  text-shadow: 3px 3px var(--yellow);
+}
+
+.Score__button:active {
+  transform: translate(2px, 2px);
+}
+
+.Score__button:focus {
+  outline: none;
+}
+
+.Score__div {
+  align-items: center;
+  display: flex;
+}
